@@ -1,0 +1,7 @@
+.btn-req{
+    background-color: #040629;
+    transition: all 1s ease-in-out;
+}
+.btn-req:hover{
+background-color: gray;
+}

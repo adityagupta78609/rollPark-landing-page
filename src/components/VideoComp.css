@@ -1,0 +1,33 @@
+.showData{
+    animation: slide 12s infinite;
+}
+body{
+    overflow-x: hidden;
+}
+@keyframes slide {
+    0%{
+        top:0px;
+    }
+    20%{
+        top:-55px
+    }
+    40%{
+        top:-110px
+    }
+    60%{
+        top:-165px
+    }
+    80%{
+        top:-220px
+    }
+     100%{
+        top:0px;
+    } 
+}
+video{
+    height: 900px;
+    width:1700px;
+    margin-left: -50px;
+    max-width:1700px
+}
+

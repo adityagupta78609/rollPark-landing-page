@@ -1,0 +1,36 @@
+.case-study:hover span{
+    padding-left:0.5rem; 
+
+}
+.template1,.template2,.template3{
+    transition: all 0.5s ease-in-out ;
+    
+}
+.case-study{
+    position:absolute;
+    bottom:3rem;
+    right:3rem;
+    z-index:9;
+    transition: all 0.5s ease-in-out  ;
+    display:none;
+}
+
+img{
+    /* max-width: 130%; */
+    transition: all 5s linear;
+    object-fit: contain;
+}
+.template1:hover .case-study,.template2:hover .case-study,.template3:hover .case-study{
+    display:block;
+
+}
+.template1:hover ,.template2:hover,.template3:hover {
+    filter:contrast(70%)
+}
+.template4{
+    height:30em;
+}
+.template1:hover img,.template2:hover img,.template3:hover img{
+    transform: scaleX(1.5);
+    transform: scaleY(1.5);
+}

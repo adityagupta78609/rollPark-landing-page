@@ -1,0 +1,56 @@
+.specifications:hover span{
+padding-left: 5px;
+}
+
+
+@media only screen and (min-width: 768px) {
+/* md */
+.interest-con{
+    width:100vw;
+} 
+.img-con{
+    display: block;
+}
+.img-layer{
+    width:300px;
+}
+.layer1{
+    top:2rem; 
+}.layer2{
+    top:5rem; 
+}.layer3{
+    top:8rem; 
+}
+}
+@media only screen and (min-width: 1024px) {
+/* lg */
+.interest-con{
+    width:60vw;
+}   
+.interest-info{
+    width:35vw;
+}
+.img-con{
+    display: block;
+}
+.img-layer{
+    width:400px;
+}
+.layer1{
+    top:-2rem; 
+}.layer2{
+    top:3rem; 
+}.layer3{
+    top:8rem; 
+}
+}
+
+@media only screen and (max-width: 768px) {
+/* max-md */
+.interest-info{
+    width:100vw;
+}
+.img-con{
+    display: none;
+}
+}
